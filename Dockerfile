@@ -1,5 +1,5 @@
 #  docker build -t cyrilbouvier/ci-build .
-FROM debian:stretch
+FROM debian:buster
 
 RUN apt-get update && \
     apt-get install -y cmake make build-essential git wget curl gcc g++ \
